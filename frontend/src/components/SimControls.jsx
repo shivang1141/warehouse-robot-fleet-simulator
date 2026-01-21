@@ -13,7 +13,7 @@ export default function SimControls() {
     <div className="flex items-center justify-between p-4 bg-bg-secondary border-b border-slate-700">
       <div className="flex items-center gap-4">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-accent-blue to-accent-teal bg-clip-text text-transparent">
-          Symbotic Fleet Simualtor
+          Symbotic Fleet Simulator
         </h1>
         <div className="flex items-center gap-2 text-sm">
           <span className={`w-3 h-3 rounded-full ${wsConnected ? 'bg-green-500 shadow-[0_0_8px_#22c55e]' : 'bg-red-500 shadow-[0_0_8px_#ef4444]'}`}></span>

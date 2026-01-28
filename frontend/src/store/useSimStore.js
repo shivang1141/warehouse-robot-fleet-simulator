@@ -30,7 +30,7 @@ const useSimStore = create((set, get) => ({
     obstacles: snap.obstacles || []
   }),
   
-  pushEvent: (ev) => set((s) => ({ events: [ev, ...s.events].slice(0, 50) })),
+  pushEvent: (ev) => set((s) => ({ events: [ev, ...s.events].slice(0, 100) })),
   
   setPlaybackRun: (runId, events, maxTick) => set({
     playbackRunId: runId, playbackData: events, playbackMaxTick: maxTick
